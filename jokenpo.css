@@ -21,6 +21,9 @@ body{
   color: #000000;
 
 }
+h1{
+  margin: 0.2em;
+}
 #board{
   display: flex;
   flex-wrap: wrap;
