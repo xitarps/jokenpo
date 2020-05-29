@@ -44,11 +44,18 @@ img{
 
 }
 #versus{
+  display: flex;
   background-color: #ffffff00;
   margin: 2em;
   color: #ffffff;
   text-shadow:2px 2px #000000;
   box-shadow: 0 0;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+h2{
+  margin: 0;
 }
 .move_options{
   display: flex;
