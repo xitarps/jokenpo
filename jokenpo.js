@@ -64,8 +64,11 @@ function set_hands_click_listeners(){
 }
 
 function play_jokenpo(element){
+  let moves = ['rock','paper','scissor']
   let player_move = element.id.split('_')[1]
-  let computer_move = 'rock'
+  let randon_zero_one_or_two = Math.floor(Math.random() * 3);
+  let computer_move = moves[randon_zero_one_or_two]
+  console.log(computer_move)
 
   //jokenpo rules
   if((player_move == 'rock' && computer_move == 'scissor') || 
