@@ -10,11 +10,11 @@
 </head>
 <body>
   <main id="game">
-    <h1 id="title">Jokenpo!</h1>
+    <h1 id="title" class="light">Jokenpo!</h1>
     <div id="board">
 
       <div id="player" class="game_field_space">
-          <div id="player_name">
+          <div id="player_name" class="shadow">
             YOU
           </div>
           <div id="payer_moves" class='move_options'>
@@ -28,33 +28,33 @@
               <img id="player_scissor_img" class='choosable' src="images/scissor.svg" alt="scissor">
             </div>
           </div>
-          <div id="player_score" class="score">
+          <div id="player_score" class="score shadow">
             0
           </div>
       </div>
 
-      <div id="versus" class="game_field_space">
+      <div id="versus" class="game_field_space shadow">
           <h2>
             VS
           </h3>
       </div>
 
-      <div id="computer" class="game_field_space">
+      <div id="computer" class="game_field_space shadow">
           <div id="computer_name">
             CPU
           </div>
           <div id="computer_moves" class='move_options'>
               <div id="computer_rock">
-                <img id="computer_rock_img" src="images/rock.svg" alt="rock">
+                <img id="computer_rock_img" class='computer_hand_img' src="images/rock.svg" alt="rock">
               </div>
               <div id="computer_paper">
-                <img id="computer_paper_img" src="images/paper.svg" alt="paper">
+                <img id="computer_paper_img" class='computer_hand_img' src="images/paper.svg" alt="paper">
               </div>
               <div id="computer_scissor">
-                <img id="computer_scissor_img" src="images/scissor.svg" alt="scissor">
+                <img id="computer_scissor_img" class='computer_hand_img' src="images/scissor.svg" alt="scissor">
               </div>
           </div>
-          <div id="computer_score"  class="score">
+          <div id="computer_score"  class="score shadow">
             0
           </div>
       </div>
@@ -63,7 +63,7 @@
 
     <div id="messages">
       <h4 id="notice">
-        messages will be displayed here
+        Let the game begin!
       </h4>
     </div>
   </main>

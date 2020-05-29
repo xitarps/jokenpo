@@ -7,7 +7,7 @@ html,body{
   color: #ffffff;
 }
 body{
-  background-color: #d6d6d6;
+  background-color: #e4e4e4;
 }
 #game {
   display: flex;
@@ -39,7 +39,7 @@ img{
 .game_field_space {
   display: flex;
   flex-direction: row;
-  background-color: #ff2f2f;
+  background-color: #0015ce;
   margin: 0.5em;
   padding: 1em;
   border-radius: 5px;
@@ -67,7 +67,7 @@ h2{
   margin: 1em;
 }
 #messages{
-  background-color: #22222200;
+  background-color: #eeff0000;
 }
 #notice{
   text-align: center;
@@ -76,4 +76,11 @@ h2{
   padding: 0.3em;
   border-radius: 5px;
   box-shadow: 3px 3px 10px #00000057;
+  text-shadow:2px 2px 5px #000000;
+}
+.shadow{
+  text-shadow:2px 2px 5px #000000;
+}
+.light{
+  text-shadow:1px 1px 3px #ffffff;
 }
