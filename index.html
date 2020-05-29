@@ -10,12 +10,13 @@
 <body>
   <main id="game">
     <h1 id="title">Jokenpo!</h1>
-    <div if="board">
+    <div id="board">
 
-      <div id="player">
+      <div id="player" class="game_field_space">
           <div id="player_name">
+            Player
           </div>
-          <div id="payer_moves">
+          <div id="payer_moves" class='move_options'>
             <div id="player_rock">
               <img id="player_rock_img" src="" alt="rock">
             </div>
@@ -27,19 +28,21 @@
             </div>
           </div>
           <div id="player_score">
+            0
           </div>
       </div>
 
-      <div id="versus">
+      <div id="versus" class="game_field_space">
           <h2>
             VS
           </h3>
       </div>
 
-      <div id="computer">
+      <div id="computer" class="game_field_space">
           <div id="computer_name">
+            Computer
           </div>
-          <div id="computer_moves">
+          <div id="computer_moves" class='move_options'>
               <div id="computer_rock">
                 <img id="computer_rock_img" src="" alt="rock">
               </div>
@@ -51,15 +54,16 @@
               </div>
           </div>
           <div id="computer_score">
+            0
           </div>
       </div>
 
     </div>
 
     <div id="messages">
-      <h4>
+      <h4 id="notice">
         messages will be displayed here
-      </h6>
+      </h4>
     </div>
   </main>
   <script src="jokenpo.js"></script>
